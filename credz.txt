@@ -1,0 +1,27 @@
+.profile-style[_ngcontent-c3] {
+    padding-left: 30px;
+    padding-top: 33px;
+}
+
+Alternatively, remove all paddings (except padding-bottom in ID name), margins (except margin-left)
+max-width property from the header, and col-md-1.
+And add:
+Header Class {display: flex; align-items: center;}
+
+
+
+Just  add "pr-2" in account settings icon class
+<i _ngcontent-c1="" aria-hidden="true" class="fa fa-cog icons settings pr-2"></i> 
+
+
+
+.badge-certi{
+	display: flex;
+	justify-content: space-around;
+}
+Also, remove padding and display properties of children div.
+And make a second div with {border: 1px solid #ccc; height: 52px;}
+
+
+
+Remove "btn-outline-dark" from all buttons having colour changes on hover
